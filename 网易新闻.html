@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        a{
+            text-decoration: none;
+        }
+
+        ul{
+            list-style: none;
+            padding: 0px;
+            margin: 0px;
+        }
+        .news-wrapper{
+            width: 300px;
+            height: 357px;
+            margin: 60px auto;   
+            border-top: 1px solid #ddd;
+            
+        }
+
+        .news-title{
+            display: inline-block;
+            height: 40px;
+            margin: 0px;
+            font-size: 16px;
+            line-height: 40px;
+            border-top: 1px solid #f34540; 
+            font-weight: bold;
+            margin-top: -1px;
+            
+        }
+        .news-title a{
+            color: #404040;
+        }
+
+        .news-title a:hover{
+            color:#F3456B;
+        }
+
+        .news-image h3{
+            margin: 0;
+            color: white;
+            margin-top: -30px;
+            font-size: 16px;
+            padding-left: 20px;
+        }
+        
+        .news-list{
+            margin-top:12px;
+        }
+
+        .news-list li{
+            height: 30px;
+            line-height: 30px;
+            font-size: 14px;
+            font-family: 宋体;
+        }
+
+        .news-list a{
+            color:#666666;
+        }
+
+        .news-list a:hover{
+            color:#F34540;
+        }
+
+        .news-list a::before{
+            content: "■";
+            font-size: 10px;
+            color: #ddd;
+        }
+
+        .news-image{
+            height: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div class="news-wrapper">
+        <h2 class="news-title">
+            <a href="#">体育</a>
+        </h2>
+        <div class="news-image">
+            <a href="">
+                <img src="./picture/allen.webp" alt="">
+            </a>
+            <h3>库里妹夫三不沾 雷-阿伦表情亮了</h3>
+        </div> 
+
+        <ul class="news-list">
+            <li>
+                <a href="#">周冠宇挤掉F2冠军被狂喷 车队发声力挺</a>
+            </li>
+            <li>
+                <a href="#">湖人勇士还抢吗？黑又硬中锋不愿只当绿叶</a>
+            </li>
+            <li>
+                <a href="#">湖人勇士还抢吗？黑又硬中锋不愿只当绿叶</a>
+            </li>
+            <li>
+                <a href="#">外援归化都在逃离中超 他却坚持留下</a>
+            </li>
+        </ul>
+    </div>
+    
+</body>
+</html>

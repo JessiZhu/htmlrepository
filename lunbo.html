@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <title>Document</title>
+
+    <style>
+        .img-list{
+            height: 470px;
+            width: 590px;
+            margin:50px auto;
+            position: relative;  
+        }
+
+        .img-list li{
+            position:absolute;
+        }
+
+        .pointer{
+            position: absolute;
+            bottom: 10px;
+        }
+
+
+        .pointer a{
+            display: block;
+            width: 8px;
+            height: 8px;
+            background-color: rgba(252, 246, 246,0.3);
+            float: left;
+            border: transparent solid 2px;
+            background-clip: content-box;
+            border-radius: 50%;
+            margin-left: 6px;  
+        }
+
+        .pointer a.active,
+        .pointer a:hover{
+            background-color: white;
+            background-clip: content-box;
+            border: rgba(252, 246, 246,0.3) solid 2px;
+        }
+    </style>
+
+</head>
+<body>
+    <ul class="img-list">
+        <li><a href="javascript:;"><img src="./picture/lunbo/1.jpg" ></a></li>
+        <li><a href="javascript:;"><img src="./picture/lunbo/2.jpg" ></a></li>
+        <li><a href="javascript:;"><img src="./picture/lunbo/3.jpg" ></a></li>
+        <li><a href="javascript:;"><img src="./picture/lunbo/4.jpg" ></a></li>
+        <li><a href="javascript:;"><img src="./picture/lunbo/5.jpg" ></a></li>
+
+        <div class="pointer">
+            <a class="active" href="javascript:;"></a>
+            <a href="javascript:;"></a>
+            <a href="javascript:;"></a>
+            <a href="javascript:;"></a>
+            <a href="javascript:;"></a>
+        </div>
+    </ul>
+</body>
+</html>
